@@ -16,6 +16,7 @@ import { Checkout } from './pages/checkout/heckout';
         <Route path='/' element={<Home/>}></Route>
         <Route path='/products/:id' element={<Products/>}></Route>
         <Route path='/product' element={<Product/>}></Route>
+        <Route path='/checkout' element={<Checkout/>}></Route>
         </Routes>
         </BrowserRouter>
 

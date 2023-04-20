@@ -2,6 +2,7 @@ import React from 'react'
 import "./product.css";
 import { Link } from 'react-router-dom';
 export const Product = ({ele}) => {
+
   return (
   <>
     <div className='product-upper'>
@@ -11,9 +12,8 @@ export const Product = ({ele}) => {
       <div className='right-1'>
         <span className='game-name'>{ele?.attributes.title}</span><br/><br/>
         <div className='details-1'>{ele?.attributes.description}</div>
-        <button className='btn-1'>Buy Now</button>
+        <button className='btn-1'><Link to="/checkout" className='link-1'>Buy Now</Link></button>
        
-        
       </div>
     </div>
     </>
