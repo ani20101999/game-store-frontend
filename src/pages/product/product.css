@@ -1,0 +1,53 @@
+.product-upper{
+    display: flex;
+    flex-direction: row;
+    height:500px;
+    font-weight: bold;
+}
+.left-1{
+    width:300px;
+    height:350px;
+    margin-left: 40px ;
+    
+}
+.right-1{
+    margin-top: 20px;
+    margin-left:20px;
+    
+}
+.details-1{
+    width: 350px;
+    height: 100px;
+    font-size: small;
+    overflow-y: scroll;
+    padding: 5px;
+    background-color: darksalmon;
+
+}
+.btn-1{
+    width:100px;
+    height:30px;
+    margin-top: 10px;
+    background-color: blue;
+    color: aliceblue;
+}
+.btn-2{
+    width:100px;
+    height:30px;
+    margin-top: 10px;
+    background-color: blue;
+    color: aliceblue;
+    margin-left: 5px;
+}
+#myform {
+    text-align: center;
+    padding-right: 230px;
+    margin: 3%;
+}
+.qty {
+    width: 40px;
+    height: 25px;
+    text-align: center;
+}
+input.qtyplus { width:25px; height:25px;}
+input.qtyminus { width:25px; height:25px;}

@@ -1,0 +1,25 @@
+.card{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+   
+}
+.arrival{
+    padding-left: 30px;
+    font-size: large;
+    font-weight: bold;
+}
+.image{
+    width:280px;
+    height: 250px;
+   
+}
+.item-price{
+ padding-left: 80px;
+ font-weight: bold;
+}
+.item-name{
+    padding-left: 20px;
+    font-weight: bold;
+}
